@@ -1,1 +1,10 @@
 c:\users\admin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
