@@ -79,6 +79,12 @@
     <Compile Include="Главное меню.Designer.cs">
       <DependentUpon>Главное меню.cs</DependentUpon>
     </Compile>
+    <Compile Include="Логин.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Логин.Designer.cs">
+      <DependentUpon>Логин.cs</DependentUpon>
+    </Compile>
     <Compile Include="Разделы.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Главное меню.resx">
+      <DependentUpon>Главное меню.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Логин.resx">
+      <DependentUpon>Логин.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Регистрация.resx">
       <DependentUpon>Регистрация.cs</DependentUpon>
     </EmbeddedResource>

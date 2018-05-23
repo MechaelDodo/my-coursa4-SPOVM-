@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Главное_меню
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "Главное_меню";
             this.Text = "Главное_меню";
+            this.Load += new System.EventHandler(this.Главное_меню_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

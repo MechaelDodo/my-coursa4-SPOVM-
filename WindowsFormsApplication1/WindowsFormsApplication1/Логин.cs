@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Главное_меню : Form
+    public partial class Логин : Form
     {
-        public Главное_меню()
+        public Логин()
         {
             InitializeComponent();
-        }
-
-        private void Главное_меню_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

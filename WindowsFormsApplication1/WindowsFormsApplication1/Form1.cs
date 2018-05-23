@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
-            ToolTip t = new ToolTip();
+            ToolTip t = new ToolTip();  //при наводке мыши отображается подсказка
             t.SetToolTip(button1, "Справка");
             t.SetToolTip(button2, "Зарегистрироваться");
             t.SetToolTip(button3, "Чтобы начать тестирование, вам необходимо авторизироваться");
@@ -30,7 +30,7 @@ namespace WindowsFormsApplication1
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {         
             Form2 spravk = new Form2();
             spravk.ShowDialog();
         }
@@ -39,6 +39,17 @@ namespace WindowsFormsApplication1
         {
             Регистрация RegForm = new Регистрация();
             RegForm.ShowDialog();
+            if (User.flag == true)
+            {
+                Forms.MainMenu.Show();
+                this.Hide();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Логин loginForm = new Логин();
+            loginForm.ShowDialog();
             if (User.flag == true)
             {
                 Forms.MainMenu.Show();
