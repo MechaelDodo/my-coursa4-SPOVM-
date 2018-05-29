@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    class Test
+    public class Test
     {
+
+
+        public static int razd;
+        public static int index;
+
+        public int id;
+        public string name;
+        public string opisanie;
+        public int razdel;
+        public string[] quest;
+        public int id_answ;
+
+        static public int k;
+
+        public Test()
+        {
+
+        }
     }
 }

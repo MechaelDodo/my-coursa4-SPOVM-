@@ -109,6 +109,12 @@
     <Compile Include="РедТест.Designer.cs">
       <DependentUpon>РедТест.cs</DependentUpon>
     </Compile>
+    <Compile Include="Тестирование.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Тестирование.Designer.cs">
+      <DependentUpon>Тестирование.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Регистрация.resx">
       <DependentUpon>Регистрация.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Тестирование.resx">
+      <DependentUpon>Тестирование.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
