@@ -13,3 +13,4 @@ C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\Windo
 C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Главное_меню.resources
 C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Логин.resources
 C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\admin\Documents\GitHub\my-coursa4-SPOVM-\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Тестирование.resources

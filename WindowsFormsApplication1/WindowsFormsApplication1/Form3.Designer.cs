@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.label1 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.выйтиИзАккаунтаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выйтиИзПрограммыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выйтиИзПрограммыToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.выйтиИзПрограммыToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +55,30 @@
             this.menuStrip1.Size = new System.Drawing.Size(699, 24);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // выйтиИзАккаунтаToolStripMenuItem
+            // 
+            this.выйтиИзАккаунтаToolStripMenuItem.Name = "выйтиИзАккаунтаToolStripMenuItem";
+            this.выйтиИзАккаунтаToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.выйтиИзАккаунтаToolStripMenuItem.Text = "Разделы";
+            // 
+            // выйтиИзПрограммыToolStripMenuItem
+            // 
+            this.выйтиИзПрограммыToolStripMenuItem.Name = "выйтиИзПрограммыToolStripMenuItem";
+            this.выйтиИзПрограммыToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
+            this.выйтиИзПрограммыToolStripMenuItem.Text = "Главное меню";
+            // 
+            // выйтиИзПрограммыToolStripMenuItem1
+            // 
+            this.выйтиИзПрограммыToolStripMenuItem1.Name = "выйтиИзПрограммыToolStripMenuItem1";
+            this.выйтиИзПрограммыToolStripMenuItem1.Size = new System.Drawing.Size(129, 20);
+            this.выйтиИзПрограммыToolStripMenuItem1.Text = "Выйти из аккаунта";
+            // 
+            // выйтиИзПрограммыToolStripMenuItem2
+            // 
+            this.выйтиИзПрограммыToolStripMenuItem2.Name = "выйтиИзПрограммыToolStripMenuItem2";
+            this.выйтиИзПрограммыToolStripMenuItem2.Size = new System.Drawing.Size(146, 20);
+            this.выйтиИзПрограммыToolStripMenuItem2.Text = "Выйти из программы";
             // 
             // label1
             // 
@@ -82,30 +106,6 @@
             this.listBox1.Size = new System.Drawing.Size(549, 338);
             this.listBox1.TabIndex = 0;
             // 
-            // выйтиИзАккаунтаToolStripMenuItem
-            // 
-            this.выйтиИзАккаунтаToolStripMenuItem.Name = "выйтиИзАккаунтаToolStripMenuItem";
-            this.выйтиИзАккаунтаToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.выйтиИзАккаунтаToolStripMenuItem.Text = "Разделы";
-            // 
-            // выйтиИзПрограммыToolStripMenuItem
-            // 
-            this.выйтиИзПрограммыToolStripMenuItem.Name = "выйтиИзПрограммыToolStripMenuItem";
-            this.выйтиИзПрограммыToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
-            this.выйтиИзПрограммыToolStripMenuItem.Text = "Главное меню";
-            // 
-            // выйтиИзПрограммыToolStripMenuItem1
-            // 
-            this.выйтиИзПрограммыToolStripMenuItem1.Name = "выйтиИзПрограммыToolStripMenuItem1";
-            this.выйтиИзПрограммыToolStripMenuItem1.Size = new System.Drawing.Size(129, 20);
-            this.выйтиИзПрограммыToolStripMenuItem1.Text = "Выйти из аккаунта";
-            // 
-            // выйтиИзПрограммыToolStripMenuItem2
-            // 
-            this.выйтиИзПрограммыToolStripMenuItem2.Name = "выйтиИзПрограммыToolStripMenuItem2";
-            this.выйтиИзПрограммыToolStripMenuItem2.Size = new System.Drawing.Size(146, 20);
-            this.выйтиИзПрограммыToolStripMenuItem2.Text = "Выйти из программы";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -127,12 +127,11 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximumSize = new System.Drawing.Size(714, 555);
             this.MinimumSize = new System.Drawing.Size(714, 555);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Тестирование";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
