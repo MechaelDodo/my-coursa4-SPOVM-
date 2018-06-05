@@ -132,12 +132,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ВопросыОтветы.resx">
+      <DependentUpon>ВопросыОтветы.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Главное меню.resx">
       <DependentUpon>Главное меню.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Логин.resx">
       <DependentUpon>Логин.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Разделы.resx">
+      <DependentUpon>Разделы.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Регистрация.resx">
       <DependentUpon>Регистрация.cs</DependentUpon>
@@ -158,8 +165,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\Фон23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

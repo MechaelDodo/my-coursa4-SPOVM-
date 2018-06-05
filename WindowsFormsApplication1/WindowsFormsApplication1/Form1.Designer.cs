@@ -36,6 +36,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._11;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(600, 448);
@@ -50,7 +51,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(423, 155);
+            this.button2.Location = new System.Drawing.Point(380, 173);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(225, 77);
             this.button2.TabIndex = 1;
@@ -72,6 +73,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.Фон23;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(696, 524);
             this.Controls.Add(this.button3);

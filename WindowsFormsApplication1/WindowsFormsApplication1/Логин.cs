@@ -18,6 +18,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
+        public bool flag;
         private void button1_Click(object sender, EventArgs e)
         {
             DataTable DT = new DataTable();
@@ -55,7 +56,7 @@ namespace WindowsFormsApplication1
                     }
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }

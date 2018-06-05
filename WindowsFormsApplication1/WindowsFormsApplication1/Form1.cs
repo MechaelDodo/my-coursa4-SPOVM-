@@ -23,6 +23,7 @@ namespace WindowsFormsApplication1
             Forms.MainMenu = new Главное_меню();
             Forms.Razd = new Разделы();
         }
+        Form main;
 
         private void Form1_Load(object sender, EventArgs e)
         {
