@@ -61,12 +61,14 @@
             this.выйтиИзАккаунтаToolStripMenuItem.Name = "выйтиИзАккаунтаToolStripMenuItem";
             this.выйтиИзАккаунтаToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.выйтиИзАккаунтаToolStripMenuItem.Text = "Разделы";
+            this.выйтиИзАккаунтаToolStripMenuItem.Click += new System.EventHandler(this.выйтиИзАккаунтаToolStripMenuItem_Click_1);
             // 
             // выйтиИзПрограммыToolStripMenuItem
             // 
             this.выйтиИзПрограммыToolStripMenuItem.Name = "выйтиИзПрограммыToolStripMenuItem";
             this.выйтиИзПрограммыToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
             this.выйтиИзПрограммыToolStripMenuItem.Text = "Главное меню";
+            this.выйтиИзПрограммыToolStripMenuItem.Click += new System.EventHandler(this.выйтиИзПрограммыToolStripMenuItem_Click_1);
             // 
             // выйтиИзПрограммыToolStripMenuItem1
             // 
@@ -122,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 521);
+            this.ClientSize = new System.Drawing.Size(698, 517);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);

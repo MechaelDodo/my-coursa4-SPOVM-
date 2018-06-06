@@ -139,6 +139,16 @@ namespace WindowsFormsApplication1
         {
         }
 
+        private void выйтиИзПрограммыToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void выйтиИзАккаунтаToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
 
 
 

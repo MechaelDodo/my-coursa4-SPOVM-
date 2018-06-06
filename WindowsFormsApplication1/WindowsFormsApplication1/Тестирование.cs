@@ -354,8 +354,7 @@ namespace WindowsFormsApplication1
             Forms.f3 = null;
         }
 
-        private void выйтиИзПрограммыToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
+        private void выйтиИзПрограммыToolStripMenuItem1_Click(object sender, EventArgs e){
             this.Close();
             Forms.Form1.Show();
             Forms.f3 = null;
@@ -412,6 +411,16 @@ namespace WindowsFormsApplication1
                 MessageBox.Show(ex.Message);
                 return false;
             }
+        }
+
+        private void Тестирование_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

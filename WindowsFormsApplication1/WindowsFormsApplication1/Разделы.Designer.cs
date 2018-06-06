@@ -51,6 +51,7 @@
             this.button1.Size = new System.Drawing.Size(199, 88);
             this.button1.TabIndex = 10;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -62,7 +63,7 @@
             this.button2.Size = new System.Drawing.Size(190, 95);
             this.button2.TabIndex = 9;
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -74,6 +75,7 @@
             this.button3.Size = new System.Drawing.Size(179, 98);
             this.button3.TabIndex = 11;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -85,6 +87,7 @@
             this.button4.Size = new System.Drawing.Size(182, 96);
             this.button4.TabIndex = 12;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -96,6 +99,7 @@
             this.button5.Size = new System.Drawing.Size(203, 95);
             this.button5.TabIndex = 13;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // menuStrip1
             // 
@@ -117,18 +121,21 @@
             this.выйтиИзАккаунтаToolStripMenuItem.Name = "выйтиИзАккаунтаToolStripMenuItem";
             this.выйтиИзАккаунтаToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
             this.выйтиИзАккаунтаToolStripMenuItem.Text = "В главное меню";
+            this.выйтиИзАккаунтаToolStripMenuItem.Click += new System.EventHandler(this.выйтиИзАккаунтаToolStripMenuItem_Click);
             // 
             // выйтиИзПрограммыToolStripMenuItem
             // 
             this.выйтиИзПрограммыToolStripMenuItem.Name = "выйтиИзПрограммыToolStripMenuItem";
             this.выйтиИзПрограммыToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
             this.выйтиИзПрограммыToolStripMenuItem.Text = "Выйти из аккаунта";
+            this.выйтиИзПрограммыToolStripMenuItem.Click += new System.EventHandler(this.выйтиИзПрограммыToolStripMenuItem_Click);
             // 
             // выйтиИзПрограммыToolStripMenuItem1
             // 
             this.выйтиИзПрограммыToolStripMenuItem1.Name = "выйтиИзПрограммыToolStripMenuItem1";
             this.выйтиИзПрограммыToolStripMenuItem1.Size = new System.Drawing.Size(138, 20);
             this.выйтиИзПрограммыToolStripMenuItem1.Text = "Выйти из программы";
+            this.выйтиИзПрограммыToolStripMenuItem1.Click += new System.EventHandler(this.выйтиИзПрограммыToolStripMenuItem1_Click);
             // 
             // label1
             // 
